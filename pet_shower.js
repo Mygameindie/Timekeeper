@@ -35,7 +35,7 @@
     bath1: new Image(),
     bath2: new Image(),
   };
-  base.bath1.src = 'base.png';
+  base.bath1.src = 'base_bath.png';
   base.bath2.src = 'base_bath2.png';
 
   const bath = { currentBaseKey: 'bath1', lastDrawnBaseKey: 'bath1', wasTouching: false, x: 0, y: 0, w: 0, h: 0 };
